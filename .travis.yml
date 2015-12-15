@@ -3,17 +3,15 @@ compiler: gcc
 sudo: true
 matrix:
   include:
-    #- os: osx
-    #  compiler: clang
-    #  env: TARGET="osx"
+    - os: osx
+      compiler: clang
+      env: TARGET="osx"
     - os: osx
       compiler: clang
       env: TARGET="ios"
   exclude:
     - compiler: gcc
 script:
-    - set -ev
-    - echo "Building GameCenterManager - Example Project"
-    - xcodebuild -project "GameCenterManager.xcodeproj" -target GameCenterManager -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+    - scripts/ci/$TARGET/build.sh
 git:
     depth: 10
