@@ -12,6 +12,6 @@ matrix:
   exclude:
     - compiler: gcc
 script:
-    - scripts/ci/$TARGET/build.sh
+    - travis/$TARGET/build.sh
 git:
     depth: 10
