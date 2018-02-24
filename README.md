@@ -1,5 +1,5 @@
-* This is a forked updated version of the Original https://github.com/nihalahmed/GameCenterManager last updated 2015. *
-This Hard fork provides support for Objective-C(++) where as the later was heading towards swift and modules. 
+* This is a forked updated version of the Original https://github.com/nihalahmed/GameCenterManager last updated 2015. 
+* This Hard fork provides support for Objective-C(++) where as the later was heading towards swift and modules. 
 
 <img width=100% src="https://raw.github.com/danoli3/GameCenterManager2/master/Images/GameBanner.png"/>
 
