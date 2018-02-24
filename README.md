@@ -1,6 +1,8 @@
 * This is a forked updated version of the Original https://github.com/nihalahmed/GameCenterManager last updated 2015. 
 * This Hard fork provides support for Objective-C(++) where as the later was heading towards swift and modules. 
 
+[![Build Status](https://travis-ci.org/danoli3/GameCenterManager2.svg?branch=master)](https://travis-ci.org/danoli3/GameCenterManager2)
+
 <img width=100% src="https://raw.github.com/danoli3/GameCenterManager2/master/Images/GameBanner.png"/>
 
 GameCenter Manager helps to manage Game Center in iOS and Mac apps. Report and track high scores, achievements, and challenges for different players. GameCenter Manager also takes care of the heavy lifting - checking internet availability, saving data when offline and uploading it when online, etc. On iOS (and soon on other platforms) GameCenter Manager makes it easy to setup and run live peer-to-peer Game Center Multiplayer matches.
